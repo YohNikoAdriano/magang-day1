@@ -1,0 +1,49 @@
+#app{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav, section{
+    padding: 0 15rem !important;
+}
+
+strong{
+    color: #6096B4;
+}
+
+span{
+    font-size: small;
+}
+
+.button {
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    color: white;
+    background: #6096B4;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: .5rem;
+}
+
+.button:hover{
+    background: #93BFCF;
+    transform: scale(1.1);
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.contact-icon-container{
+    margin: 0 8rem !important;
+}
+
+.contact-icon{
+    width: 10% !important;
+}
